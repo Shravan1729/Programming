@@ -1,0 +1,6 @@
+while True:
+    N = input("Enter the Number of Random Integers(N): ")
+    try: 
+        N = int(N)
+    except ValueError:
+        print("Enter a integer value for N")
